@@ -30,7 +30,6 @@ vector<int> getDivisors(int gcd) {
     sort(divisors.begin(), divisors.end());  
     return divisors;
 }
-
 int main() {
     int n;
     cin >> n;
